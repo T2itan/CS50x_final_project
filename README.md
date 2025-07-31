@@ -113,19 +113,6 @@ Logic is separated (`flashcard.py`) from UI (`main.py`) to keep code maintainabl
 ### Scrollable card view:
 Implemented via `Canvas` + `Scrollbar` + `Frame` to ensure usability with large card sets.
 
----
-
-## Suggested Demo Video Flow
-
-**Duration**: ~2 minutes
-
-**Script Outline**:
-1. **Intro (10 sec)**: State app purpose: “a minimal flashcard app to memorize content.”
-2. **Add cards (30 sec)**: Show entering Q&A, click 'Add', and verify it's saved.
-3. **Navigation (20 sec)**: Show 'Next', 'Back', and 'Turn' features.
-4. **Delete card (10 sec)**: Delete current card and confirm its removal.
-5. **View All (20 sec)**: Click 'View All', scroll through the list, then return.
-6. **Outro (10 sec)**: Mention local JSON storage and invite users to try it.
 
 ---
 
