@@ -6,6 +6,8 @@ This project is a flashcard application built using Python's Tkinter library for
 
 The application runs locally, stores flashcards in a JSON file on the user’s machine, and does not require an internet connection. It is a useful tool for language learning, memorization tasks, and general self-study.
 
+#### VIDEO DEMO: https://youtu.be/4Xo5QtxUUJ0
+
 ## File Structure and Description
 
 ### `main.py`
@@ -156,25 +158,6 @@ python3 main.py
 ### Requirements:
 - Python 3.6 or newer
 - No third-party libraries required (only `tkinter` and built-in `json`)
-
----
-
-## Optional Git Setup
-
-If you want to avoid committing your personal flashcards, add this to `.gitignore`:
-```
-flashcards.json
-```
-
-You can create `.gitignore` using:
-```bash
-echo "flashcards.json" >> .gitignore
-```
-
-To remove `flashcards.json` from tracking without deleting it locally:
-```bash
-git rm --cached flashcards.json
-```
 
 ---
 
