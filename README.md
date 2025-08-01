@@ -6,6 +6,8 @@ This project is a flashcard application built using Python's Tkinter library for
 
 The application runs locally, stores flashcards in a JSON file on the user’s machine, and does not require an internet connection. It is a useful tool for language learning, memorization tasks, and general self-study.
 
+#### VIDEO DEMO: https://youtu.be/4Xo5QtxUUJ0
+
 ## File Structure and Description
 
 ### `main.py`
