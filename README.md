@@ -150,7 +150,7 @@ cd flashcard-app
 
 ### 2. Run the app:
 ```bash
-python main.py
+python3 main.py
 ```
 
 ### Requirements:
