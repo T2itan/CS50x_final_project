@@ -136,7 +136,6 @@ def edit_specific_card(index):
 
 
 def show_cards():
-    # print(flashcards)
     main_frame.pack_forget()
     card_window.pack(fill="both", expand=True)
     window.update_idletasks()
@@ -147,7 +146,7 @@ def show_cards():
     back_button = tk.Button(card_window, text="Back to Main", command=go_back_to_main)
     back_button.pack(pady=10)
 
-    canvas = tk.Canvas(card_window, highlightthickness=0)
+    canvas = tk.Canvas(card_window)
     scrollbar = tk.Scrollbar(card_window, orient="vertical", command=canvas.yview)
     scrollable_frame = tk.Frame(canvas)
 
@@ -165,7 +164,7 @@ def show_cards():
     scrollbar.pack(side="right", fill="y")
 
     if not flashcards:
-        label = tk.Label(scrollable_frame, text="No flashcards available.", font=("Arial", 12), bg="#ffffff")
+        label = tk.Label(scrollable_frame, text="No flashcards available.", font=("Arial", 12))
         label.pack(padx=10, pady=5)
         return
 
